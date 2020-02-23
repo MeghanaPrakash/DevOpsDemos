@@ -12,7 +12,7 @@
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
     ```
     
-1. Install kubectl
+1. Install kubectl (kubectl interacts with cluster to manage)
    ```sh
    curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
     chmod +x ./kubectl
